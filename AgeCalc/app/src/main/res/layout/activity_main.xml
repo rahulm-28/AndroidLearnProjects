@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:background="@color/skin"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Calculate Your"
+        android:textColor="@color/warm"
+        android:textSize="35sp"
+        android:textStyle="normal|bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="AGE"
+        android:padding="10dp"
+        android:textColor="@color/white"
+        android:background="@color/warm"
+        android:textSize="42sp"
+        android:textStyle="normal|bold" />
+
+    <Button
+        android:id="@+id/btnDatePicker"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20sp"
+        android:text="Select Date"
+        android:textColor="@color/warm"
+        app:backgroundTint="@color/white"
+        android:textStyle="bold"
+        android:textSize="17dp"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:background="@color/skin"
+            android:padding="16dp">
+        <TextView
+            android:id="@+id/tvSelectedDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20sp"
+            android:textSize="20sp"
+            android:textColor="@color/orange"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Selected Date"
+            android:layout_marginTop="3dp"
+            android:textSize="18sp"
+            android:textColor="@color/warm" />
+
+        <TextView
+            android:id="@+id/tvSelectedDateInYears"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20sp"
+            android:textSize="20sp"
+            android:textColor="@color/orange"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Age in Years"
+            android:layout_marginTop="3dp"
+            android:textSize="18sp"
+            android:textColor="@color/warm" />
+
+        <TextView
+            android:id="@+id/tvSelectedDateInMonths"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20sp"
+            android:textSize="20sp"
+            android:textColor="@color/orange"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Age in Months"
+            android:layout_marginTop="3dp"
+            android:textSize="18sp"
+            android:textColor="@color/warm" />
+
+            <TextView
+                android:id="@+id/tvSelectedDateInDays"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20sp"
+                android:textColor="@color/orange"
+                android:textSize="20sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Age in Days"
+            android:layout_marginTop="3dp"
+            android:textSize="18sp"
+            android:textColor="@color/warm" />
+
+        <TextView
+            android:id="@+id/tvSelectedDateInWeeks"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20sp"
+            android:textSize="20sp"
+            android:textColor="@color/orange"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Age in Weeks"
+            android:layout_marginTop="3dp"
+            android:textSize="18sp"
+            android:textColor="@color/warm" />
+
+        <TextView
+            android:id="@+id/tvSelectedDateInMinutes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20sp"
+            android:textSize="20sp"
+            android:textColor="@color/orange"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Age in Minutes"
+            android:layout_marginTop="3dp"
+            android:textSize="18sp"
+            android:textColor="@color/warm" />
+
+
+        <TextView
+            android:id="@+id/tvSelectedDateInSeconds"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20sp"
+            android:textSize="20sp"
+            android:textColor="@color/orange"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Age in seconds"
+            android:layout_marginTop="3dp"
+            android:textSize="18sp"
+            android:textColor="@color/warm" />
+        </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>
