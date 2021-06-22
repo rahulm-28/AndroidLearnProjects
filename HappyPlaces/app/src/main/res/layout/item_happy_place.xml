@@ -28,7 +28,7 @@
             android:padding="@dimen/item_happy_places_content_padding">
 
             <de.hdodenhof.circleimageview.CircleImageView
-                android:id="@+id/iv_place_image"
+                android:id="@+id/iv_place_image_detail"
                 android:layout_width="@dimen/item_happy_place_circular_image_size"
                 android:layout_height="@dimen/item_happy_place_circular_image_size"
                 android:contentDescription="@string/image_content_description"
